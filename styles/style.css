@@ -24,6 +24,11 @@
   color: rgba(37, 36, 50, 0.5);
 }
 
+.text-quaternary {
+  color: rgba(0, 0, 0, 0.5);
+  ;
+}
+
 .btn-primary {
   background-color: #4E47FF;
   border-radius: 10px;
@@ -124,4 +129,42 @@ main {
   border-radius: 48px;
   object-fit: cover;
   object-position: -20px 0%;
+}
+
+/* productive section styles */
+.productive-section {
+  background-color: rgba(78, 71, 255, 0.1);
+  border-radius: 24px;
+  max-width: 1140px;
+  margin: 0 auto 137px;
+}
+
+.productive-section-content {
+  text-align: center;
+  padding: 50px 142px;
+
+}
+
+.productive-title {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.productive-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.productive-content {
+  text-align: center;
+}
+
+.productive-description {
+  font-size: 80px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.productive-sub-title {
+  font-size: 20px;
 }
