@@ -20,9 +20,14 @@
   color: rgba(37, 36, 50, 1);
 }
 
+.text-tertiary {
+  color: rgba(37, 36, 50, 0.5);
+}
+
 .btn-primary {
   background-color: #4E47FF;
   border-radius: 10px;
+  padding: 12px 36px;
   color: white;
   font-weight: bold;
   border: none;
@@ -32,6 +37,11 @@
 .btn-primary:hover {
   background-color: rgb(192, 192, 192);
   color: black;
+}
+
+/* body styles */
+body {
+  background-color: #f5f8ff;
 }
 
 /* header styles */
@@ -64,10 +74,6 @@ nav {
   font-weight: 900;
 }
 
-.btn-signup {
-  padding: 12px 36px;
-}
-
 /* banner styles */
 .banner-content {
   text-align: center;
@@ -82,6 +88,40 @@ nav {
   margin-bottom: 37px;
 }
 
-.btn-banner {
-  padding: 12px 36px;
+/* main styles */
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* action section styles */
+.action-container {
+  display: flex;
+  margin-top: 116px;
+  margin-bottom: 116px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.action-content {
+  width: 517px;
+}
+
+.action-title {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 23px;
+}
+
+.action-description {
+  font-size: 24px;
+  margin-bottom: 23px;
+}
+
+.action-container img {
+  width: 403px;
+  height: 328px;
+  border-radius: 48px;
+  object-fit: cover;
+  object-position: -20px 0%;
 }
