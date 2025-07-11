@@ -16,6 +16,10 @@
   color: #4E47FF;
 }
 
+.text-secondary {
+  color: rgba(37, 36, 50, 1);
+}
+
 .btn-primary {
   background-color: #4E47FF;
   border-radius: 10px;
@@ -30,6 +34,13 @@
   color: black;
 }
 
+/* header styles */
+.header {
+  background-image: url('../assets/Hero-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* nav styles */
 nav {
   display: flex;
@@ -38,7 +49,7 @@ nav {
   margin: 0 150px;
 }
 
-.brand-container {
+.brand-content {
   display: flex;
   align-items: center;
 }
@@ -54,5 +65,23 @@ nav {
 }
 
 .btn-signup {
+  padding: 12px 36px;
+}
+
+/* banner styles */
+.banner-content {
+  text-align: center;
+  max-width: 905px;
+  margin: 154px 267.5px 0px;
+  padding-bottom: 152px;
+}
+
+.banner-title {
+  font-size: 65px;
+  font-weight: bold;
+  margin-bottom: 37px;
+}
+
+.btn-banner {
   padding: 12px 36px;
 }
