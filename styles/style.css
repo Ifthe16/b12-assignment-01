@@ -294,3 +294,49 @@ main {
 .focus-section img {
   border-radius: 48px;
 }
+
+/* form section styles */
+.form-section-container {
+  display: flex;
+  align-items: center;
+  gap: 115px;
+  max-width: 1140px;
+  margin: 0 auto 85px;
+}
+
+.form-section-title {
+  font-size: 97px;
+  font-weight: bold;
+  color: black;
+}
+
+.form-label-title {
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input[type="email"],
+input[type="text"],
+form textarea {
+  width: 497px;
+  height: 70px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-bottom: 19px;
+  color: #1e1e1e;
+  padding-left: 32px;
+  border: none;
+}
+
+form textarea {
+  padding-top: 20px;
+  height: 135px;
+}
+
+.btn-submit {
+  padding: 19px;
+  width: 100%;
+}
