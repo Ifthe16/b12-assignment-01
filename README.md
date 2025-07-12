@@ -1,5 +1,7 @@
 # Creative Insights
 
+Creative Insights is a modern dark UI template designed for Webflow agencies.
+
 ## Key Features
 
 - Navbar and banner sections include background images
@@ -11,11 +13,9 @@
 - HTML
 - CSS
 
-##
-
 ## 🔗 Live Preview
 
-[👉 Click here to visit the website](https://ifthe16.github.io/b12-assignment-01/)
+👉 [Click here to visit the website](https://ifthe16.github.io/b12-assignment-01/)
 
 
 
