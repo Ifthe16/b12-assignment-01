@@ -299,7 +299,7 @@ main {
 .form-section-container {
   display: flex;
   align-items: center;
-  gap: 115px;
+  gap: 100px;
   max-width: 1140px;
   margin: 0 auto 85px;
 }
