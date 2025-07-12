@@ -136,11 +136,7 @@ main {
 }
 
 .action-container img {
-  width: 403px;
-  height: 328px;
   border-radius: 48px;
-  object-fit: cover;
-  object-position: -20px 0%;
 }
 
 /* productive section styles */
@@ -195,7 +191,8 @@ main {
 
 .card-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 20px;
 }
 
 .card {
@@ -264,4 +261,36 @@ main {
   object-fit: cover;
   object-position: 50% 0%;
   margin-right: 12px;
+}
+
+/* focus section styles */
+.focus-section {
+  background-color: white;
+  border-radius: 14px;
+  max-width: 1140px;
+  margin: 0 auto 92px;
+}
+
+.focus-section-container {
+  padding: 71px 150px;
+  text-align: center;
+}
+
+.focus-section-content {
+  margin-bottom: 20px;
+}
+
+.focus-content-title {
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.focus-content-description {
+  margin-bottom: 20px;
+}
+
+.focus-section img {
+  border-radius: 48px;
 }
